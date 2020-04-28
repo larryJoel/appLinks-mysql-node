@@ -1,0 +1,26 @@
+{{#eacth links}}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Description</th>
+      <th scope="col">Created date</th>
+      <th scope="col">Edit</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>{{links.Nombre}}</td>
+      <td>{{links.Description}}</td>
+      <td>{{timeago created_at}}</td>
+      <td>boton</td>
+      <td>boton</td>
+    </tr>
+  </tbody>
+ 
+</table>
+ {{/each}}
