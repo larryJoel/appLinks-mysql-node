@@ -4,7 +4,7 @@
   "description": "aplicacion de node con BD mysql",
   "main": "index.js",
   "scripts": {
-    "start":"node .",
+    "start": "node src/index.js",
     "dev": "nodemon src/index"
   },
   "author": "larry gonzalez",
